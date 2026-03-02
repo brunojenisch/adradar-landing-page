@@ -14,9 +14,9 @@ window.dataLayer = window.dataLayer || [];
 
 /* ── 1. KIWIFY LINKS — inserir quando disponíveis ──────────── */
 const KIWIFY_LINKS = {
-  vitalicio: '#', // TODO: inserir link Kiwify do plano vitalício (ex: https://pay.kiwify.com.br/XXXXXX)
-  mensal:    '#', // TODO: inserir link Kiwify do plano mensal
-  anual:     '#', // TODO: inserir link Kiwify do plano anual
+  vitalicio: 'https://pay.kiwify.com.br/dGX80oi', // TODO: inserir link Kiwify do plano vitalício (ex: https://pay.kiwify.com.br/XXXXXX)
+  mensal:    'https://pay.kiwify.com.br/IlnluoU', // TODO: inserir link Kiwify do plano mensal
+  anual:     'https://pay.kiwify.com.br/MNd9jeB', // TODO: inserir link Kiwify do plano anual
 };
 
 /* ── 2. INICIALIZAÇÃO ──────────────────────────────────────── */
