@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidade — AdRadar</title>
+  <meta name="robots" content="noindex, follow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0D1B2A; --surface: #152436; --accent: #FF6B35;
+      --text: #E8EDF2; --muted: #8899AA; --border: rgba(255,255,255,0.08);
+    }
+    body {
+      background: var(--bg); color: var(--text);
+      font-family: 'Inter', sans-serif; font-size: 16px;
+      line-height: 1.7; padding: 0 16px;
+    }
+    header {
+      max-width: 720px; margin: 0 auto;
+      padding: 32px 0 24px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 40px;
+    }
+    .logo {
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700; font-size: 18px; margin-bottom: 8px;
+      text-decoration: none; color: var(--text);
+    }
+    .logo svg { flex-shrink: 0; }
+    main { max-width: 720px; margin: 0 auto; padding-bottom: 80px; }
+    h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
+    .updated { color: var(--muted); font-size: 14px; margin-bottom: 40px; }
+    h2 {
+      font-size: 18px; font-weight: 600; margin-top: 40px; margin-bottom: 12px;
+      color: var(--accent);
+    }
+    p { color: #C8D4DE; margin-bottom: 16px; }
+    ul { color: #C8D4DE; padding-left: 20px; margin-bottom: 16px; }
+    ul li { margin-bottom: 8px; }
+    .highlight {
+      background: var(--surface); border: 1px solid var(--border);
+      border-left: 3px solid var(--accent);
+      border-radius: 8px; padding: 16px 20px;
+      margin: 24px 0; color: var(--text);
+    }
+    a { color: var(--accent); }
+    footer {
+      max-width: 720px; margin: 0 auto;
+      padding: 24px 0; border-top: 1px solid var(--border);
+      color: var(--muted); font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <a href="/" class="logo">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="10" stroke="#FF6B35" stroke-width="1.5" opacity="0.3"/>
+      <circle cx="12" cy="12" r="6"  stroke="#FF6B35" stroke-width="1.5" opacity="0.6"/>
+      <circle cx="12" cy="12" r="2"  fill="#FF6B35"/>
+      <line x1="12" y1="12" x2="20" y2="6" stroke="#FF6B35" stroke-width="1.5" stroke-linecap="round"/>
+    </svg>
+    AdRadar
+  </a>
+  <p style="color:var(--muted);font-size:14px">Extensão Chrome para gestores de tráfego</p>
+</header>
+
+<main>
+  <h1>Política de Privacidade</h1>
+  <p class="updated">Última atualização: 3 de março de 2026</p>
+
+  <div class="highlight">
+    <strong>Resumo:</strong> O AdRadar não coleta, não armazena e não transmite nenhum dado pessoal. Todo o processamento acontece exclusivamente no seu navegador.
+  </div>
+
+  <h2>1. Sobre o AdRadar</h2>
+  <p>O AdRadar é uma extensão para o navegador Google Chrome que exibe o Índice de Longevidade™ na Meta Ads Library, indicando há quantos dias cada anúncio está ativo.</p>
+
+  <h2>2. Dados coletados</h2>
+  <p>O AdRadar <strong>não coleta nenhum dado pessoal</strong>. Especificamente, a extensão:</p>
+  <ul>
+    <li>Não acessa seu nome, email, endereço ou qualquer informação de identificação pessoal</li>
+    <li>Não lê seu histórico de navegação fora da página facebook.com/ads/library</li>
+    <li>Não monitora suas atividades em outras abas ou sites</li>
+    <li>Não acessa informações da sua conta do Facebook ou Meta</li>
+    <li>Não captura senhas ou dados de pagamento</li>
+  </ul>
+
+  <h2>3. Dados armazenados localmente</h2>
+  <p>A extensão armazena os seguintes dados <strong>apenas no seu navegador</strong> (chrome.storage.local), nunca em servidores externos:</p>
+  <ul>
+    <li><strong>Código de licença:</strong> O código de ativação que você digitou, para verificar se sua licença é válida</li>
+    <li><strong>Histórico de anúncios:</strong> Uma lista local dos anúncios detectados durante sua navegação na Meta Ads Library (nome do anunciante + número de dias + tier de longevidade)</li>
+  </ul>
+  <p>Você pode apagar esses dados a qualquer momento removendo a extensão ou limpando os dados de armazenamento nas configurações do Chrome.</p>
+
+  <h2>4. Transmissão de dados</h2>
+  <p>O AdRadar <strong>não envia nenhum dado para servidores externos</strong>. Toda a análise e o cálculo do Índice de Longevidade™ acontecem localmente no seu navegador.</p>
+  <p>A única comunicação de rede que a extensão realiza é carregar a fonte tipográfica "Inter" do Google Fonts ao exibir o popup — o que é padrão em aplicações web e está sujeito à <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidade do Google</a>.</p>
+
+  <h2>5. Permissões utilizadas</h2>
+  <p>A extensão solicita as seguintes permissões, com justificativas:</p>
+  <ul>
+    <li><strong>storage:</strong> Salvar o status da licença e o histórico de anúncios localmente no navegador</li>
+    <li><strong>activeTab:</strong> Detectar quando você está navegando na Meta Ads Library para ativar a análise</li>
+    <li><strong>Acesso a facebook.com/ads/library:</strong> Ler o conteúdo público da Meta Ads Library para extrair as datas de início dos anúncios e exibir os badges de longevidade</li>
+  </ul>
+
+  <h2>6. Compartilhamento com terceiros</h2>
+  <p>O AdRadar não compartilha nenhum dado com terceiros, pois não coleta nenhum dado.</p>
+
+  <h2>7. Crianças</h2>
+  <p>O AdRadar é destinado exclusivamente a profissionais de marketing digital. Não é direcionado a menores de 18 anos.</p>
+
+  <h2>8. Alterações nesta política</h2>
+  <p>Caso esta política seja alterada, a nova versão será publicada nesta página com a data de atualização revisada.</p>
+
+  <h2>9. Contato</h2>
+  <p>Dúvidas sobre privacidade: <a href="mailto:contato@adradar.com.br">contato@adradar.com.br</a></p>
+</main>
+
+<footer>
+  <p>© 2026 AdRadar — <a href="/">Voltar ao site</a></p>
+</footer>
+
+</body>
+</html>
